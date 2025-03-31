@@ -35,7 +35,7 @@ function AppContent() {
   };
 
   // Wallet hook: get wallet data and methods.
-  const { wallet, account, connect, disconnect, connected } = useWallet();
+  const {  account, connect, disconnect, connected } = useWallet();
 
   const handleConnect = async () => {
     try {
