@@ -17,7 +17,8 @@ import {
 // Import components
 import SmartContractChat from "./Component/chat";
 
-import DeployedButton from "./Component/DeployedButton"
+import DeployedButton from "./Component/DeployedButton";
+
 import DeployForm from "./Component/DeployForm";
 
 function AppContent() {
