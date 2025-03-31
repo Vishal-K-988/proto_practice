@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import ReactDOM from "react-dom";
 import {
   AptosWalletAdapterProvider,
   useWallet,
@@ -8,11 +7,11 @@ import {
 import { Network } from "@aptos-labs/ts-sdk";
 import {
   Cpu,
-  ArrowRight,
+  
   Code,
   Layers,
   Wallet as WalletIcon,
-  ChevronDown,
+
 } from "lucide-react";
 
 // Import components
